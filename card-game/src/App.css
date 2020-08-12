@@ -1,0 +1,62 @@
+html {
+  font-family: 'Courier New';
+}
+#userCard {
+  src: "blue_back.jpg";
+}
+
+h1 {
+  color: red;
+}
+
+.card {
+  width: 200px;
+}
+.card-images {
+  display: flex;
+  justify-content: space-between;
+  width: 700px;
+}
+.about {
+  display: flex;
+  justify-content: space-between;
+  width: 700px;
+}
+.buttoncontainer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  width: 700px;
+}
+#clickme {
+  width: 100px;
+  height: 50px;
+}
+
+#war-images {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 700px;
+}
+
+#invisible {
+  display: none;
+}
+
+.warcard {
+  width: 75px;
+}
+.warcard1 {
+  width: 200px;
+  margin-left: 100px;
+}
+
+#showWar {
+  display: flex;
+}
+#usercardwar4 {
+  display: inline-block;
+}
+#compcardwar4 {
+  display: inline-block;
+}

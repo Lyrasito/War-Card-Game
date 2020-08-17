@@ -5,7 +5,8 @@ import { userCards, compCards} from './index';
 
 export const Button = (props) => {
     return (<div className="buttoncontainer">
-        <button id="clickme" onClick={props.onClick}>Next Card</button>
+        <button className="regClick" id={props.isWar ? "invisible" : "clickme"} onClick={props.onClick}>Next Card</button>
+        <button className="warClick" id={props.isWar ? "clickme" : "invisible"} onClick={props.onClick3}>Next Card</button>
         <button id="clickme" onClick={props.onClick2}>Shuffle Both Hands</button>
         </div>
         )
